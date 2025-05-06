@@ -116,3 +116,9 @@ This could allow UAVs to dynamically refocus for zoom payloads or inspection mod
 ## License
 
 MIT — do what you want, but no warranties. See `LICENSE` for details.
+
+## Credits
+
+Big thanks to my pal Audrey who figured out the entire autofocus disable trick. Without that none of this would’ve worked.
+
+- GitHub: [@audreyap](https://github.com/audreyap)
