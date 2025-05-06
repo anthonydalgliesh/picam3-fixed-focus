@@ -112,7 +112,7 @@ Now that autofocus is disabled, you can potentially control `focus_absolute` in 
 - Onboard mission scripts
 - Ground station input triggers
 
-This could allow UAVs to dynamically refocus for zoom payloads or inspection modes.
+This could allow UAVs to dynamically refocus.
 
 ## License
 
@@ -120,6 +120,6 @@ MIT — do what you want, but no warranties. See `LICENSE` for details.
 
 ## Credits
 
-Big thanks to my pal Audrey — they figured out the entire autofocus disable trick by running `sudo find / -name imx708.json`, opening the config, and just renaming `"rpi.af"` to something like `"rpi.af.cancel"` to break autofocus cleanly. Without that move, none of this would’ve worked.
+Big thanks to my pal Audrey she figured out the entire autofocus disable trick to break autofocus cleanly. Without that, none of this would’ve worked.
 
 - GitHub: [@audreyap](https://github.com/audreyap)
