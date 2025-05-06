@@ -1,6 +1,5 @@
 # OpenHD Pi Camera Module 3 – Disable Autofocus and Lock Manual Focus
-<h1 style="color:red">WARNING: Do not contact OpenHD if you have issues — this is an unofficial workaround</h1>
-
+![IMPORTANT!!!](./assets/warning.png)
 
 This guide explains how to permanently disable autofocus on the Raspberry Pi Camera Module 3 for use with OpenHD in UAV systems. It includes steps to break libcamera’s autofocus feature, manually control focus using `v4l2-ctl`, and lock focus at boot using a `systemd` service.
 
