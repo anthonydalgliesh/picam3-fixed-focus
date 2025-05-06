@@ -50,7 +50,7 @@ This effectively disables the autofocus plugin without breaking the rest of the 
 Reboot the Pi and test focus with:
 
 ```bash
-v4l2-ctl -d /dev/v4l-subdev1 --set-ctrl=focus_absolute=512
+v4l2-ctl -d /dev/v4l-subdev1 --set-ctrl=focus_absolute=0
 ```
 
 You should hear the lens click, and the value should stick:
