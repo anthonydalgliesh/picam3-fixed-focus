@@ -114,6 +114,18 @@ Now that autofocus is disabled, you can potentially control `focus_absolute` in 
 
 This could allow UAVs to dynamically refocus.
 
+## Optional: Physically Locking the Lens (Not Recommended)
+
+While this guide disables autofocus in software and locks the focus at boot, the Pi Camera Module 3's lens can still be damaged due to vibration in flight, especially on multirotors or high-frequency airframes.
+
+It is possible to apply a small amount of adhesive (such as E6000) to physically lock the lens position after setting the correct focus. However:
+
+- This approach **can easily damage the lens assembly**, especially if glue seeps into the actuator mechanism.
+- The voice coil in the autofocus module is not designed for permanent immobilization.
+- Even a tiny misalignment or movement during gluing could degrade image quality.
+
+**In general, this is not recommended.** If you attempt it, use extreme care and understand the risk of damaging the camera module permanently.
+
 ## License
 
 MIT — do what you want, but no warranties. See `LICENSE` for details.
